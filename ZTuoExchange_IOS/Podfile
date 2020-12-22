@@ -1,0 +1,31 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'digitalCurrency' do
+
+  pod 'IQKeyboardManager'
+  pod 'MJExtension'
+  pod 'AFNetworking','~> 3.2.1'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'Toast'
+  pod 'VTMagic'
+  pod 'FMDB'
+  pod 'CocoaAsyncSocket'
+  pod 'SDAutoLayout','~> 2.1.7'
+  pod 'Masonry'
+  pod 'BaiduMobStat'
+  pod 'UMCCommon', '~> 7.2.2'
+  pod 'YBPopupMenu', '~> 1.1.2'
+  pod 'PGDatePicker'
+  pod 'YBImageBrowser', '~> 1.1.2'
+  pod 'FLAnimatedImage', '~> 1.0.12'
+
+  target 'digitalCurrencyUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+end
